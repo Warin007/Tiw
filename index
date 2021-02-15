@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAKKARIN WARIN</title>
+<!-- internal -->
+<style>
+h2{
+    color: violet;
+    text-align: right;
+}
+/* element */
+i{
+    color: wheat;
+}
+/* id */
+#sak{
+    color: sienna;
+    text-align: center;
+
+    background-color: thistle;
+    border:15px solid red;
+}
+
+.right{
+    text-align: right;
+    font-size: large;
+}
+
+#bdmg{
+    border: 1px solid pink;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    background-color: sandybrown;
+
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* cssep12 */
+
+
+
+table,td,th{
+    border: 1px solid blue;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    padding: 15px;
+}
+tr:nth-child(even){
+    background-color: blueviolet;
+}
+th{
+    background-color: coral;
+    color: white;
+}
+</style>
+<!-- internal -->
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1 id="sak">Profile</h1> <div class="right">class select</div>
+    <!-- cssep1 and ep6 border -->
+    <h1 style="color: tomato; border-style: dotted; border-width: 2px;  "> Sakkarin Warin </h1> <br> <h2 style="border-style: dotted; border-width: thick;">Ubonratchathani</h2> <h3>Mr.Wick</h3>
+    <!-- endcssep1 -->
+
+    <p style="text-align: center;">
+    นายศักรินทร์ วารินทร์ ชื่อเล่น ติว <br>
+</p>
+
+<!-- ep4 -->
+<img src="tiw.png" width="200" >
+<!-- จบep4 -->
+<br>
+<!-- ep3 -->
+<font face="tahoma" size="6" colro="pink">
+
+<!-- element -->
+<i>Sakkarin Warin</i>
+
+</font>
+<!-- จบep3 -->
+<br>
+<br>
+<br>
+<br>
+
+<!-- ep5 -->
+
+<a href="2.html">กรอกแบบฟอร์ม</a>
+<a href="3.html">CSSNext</a>
+<!-- จบep5 -->
+<br>
+<br>
+<br>
+
+
+<!-- ep6 -->
+<table border="2" align="center">
+    <tr>
+        <th width="50">id</th> <th width="250">Name</th> <th width="250">Sername</th> <th width="250">Adress</th> <th width="250">Tel</th>
+    </tr>
+
+    <tr>
+        <td>01</td> <td>Sakkarin</td> <td>Warin</td> <td>24/11 Ubon</td> <td>0887995077</td>
+    </tr>
+    <tr>
+        <td>01</td> <td>Sakkarin</td> <td>Warin</td> <td>24/11 Ubon</td> <td>0887995077</td>
+    </tr>
+</table>
+<!-- ep6จบ -->
+<br>
+<br>
+<h3 id="bdmg">CSS EP7</h3>
+</body>
+</html>
